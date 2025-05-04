@@ -1,0 +1,19 @@
+Instrucciones:
+1. Crear un array con los números del 1 al 5 y agregue el 6 al final.
+2. Elimine el primer elemento del array anterior.
+3. Use map para duplicar los valores del array.
+4. Use filter para obtener solo los números pares.
+5. Sume todos los valores usando reduce.
+6. Ordene el array de forma descendente.
+7. Crear un objeto con nombre, edad y ciudad.
+8. Obtener las claves y valores del objeto con Object.keys() y Object.values().
+9. Agregue una función al objeto que permita saludar con el nombre.
+10. Use delete para remover una propiedad del objeto original.
+11. Genere un número aleatorio entre 1 y 100.
+12. Calcule la raíz cuadrada de 144.
+13. Redondee hacia arriba el número 6.3 y hacia abajo 6.9.
+14. Calcule el valor absoluto de -123.
+15. Obtener el número máximo y mínimo de [4, 15, -2, 99, 8].
+16. Use Math.pow() para calcular 5 elevado a la 3.
+17. Calcule el seno de 90° (pista Math.PI).
+18. Trunque el número 5.6789.

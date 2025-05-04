@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at left bottom,#000000,rgb(0, 9, 56), rgb(12, 29, 116), rgb(0, 51, 95) );
+  animation: moverGradiente 10s ease-in-out infinite;
+  height: 100vh;
+  font-family: 'Silkscreen', monospace;
+
+  color: #333;
+  background-size: 200% 200%;
+}
+html {
+  font-size: 16px; 
+  font-family: 'Silkscreen', monospace;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 10px; 
+  }
+  
+}
+
+
+
+
+
+
+
+@keyframes moverGradiente {
+  0% {
+    background-position: left bottom;
+  }
+  25% {
+    background-position: center bottom;
+  }
+  50% {
+    background-position: right center;
+  }
+  75% {
+    background-position: center top;
+  }
+  100% {
+    background-position: left bottom;
+  }
+}
+button {
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+  font-family: 'Silkscreen', monospace;
+  cursor: pointer;
+}
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+  font-family: 'Silkscreen', monospace;
+}
+
+nav a:hover {
+  font-family: 'Silkscreen', monospace;
+  text-decoration: underline;
+}
+p{
+  font-family: 'Silkscreen', monospace;
+color: rgb(255, 255, 255);
+}
+h1{
+color: rgb(255, 255, 255);
+}
+div{
+color: white;
+font-family: 'Silkscreen', monospace;
+}
+
+
+a{
+color: white;
+font-family: 'Silkscreen', monospace;
+
+}
+h1{
+font-size: 1.5rem;
+font-family: 'Silkscreen', monospace;
+
+}
+.elementsDashboard{
+padding: 5px;
+justify-content: center;
+display: flex;
+}
+.div-home{
+justify-content: center;
+width: 100vw;
+display: flex;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Ejercicios JavaScript</title>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style/main.css" />
+  <link rel="stylesheet" href="style/excuses.css" />
+  <link rel="stylesheet" href="style/home.css" />
+</head>
+<body>
+  <div class="div-home">
+    <div class="div-leftDashboard">
+      <div class="head-dashboard">
+        <p class="text-title">Navbar</p>
+      </div>
+      <nav>
+        <a href="arrayEj.html 
+          ">
+          <button class="btn-pagesNav">Numericos</button>
+        </a>
+        <a href="index.html  
+        ">
+          <button class="btn-pagesNav">Pagina principal</button>
+        </a>
+        <a href="excuses.html  
+      ">
+          <button class="btn-pagesNav">Generador de excusas</button>
+        </a>
+      </nav>
+    </div>
+    <!-- Aqui inicia el codigo  -->
+    <div class="div-dashboard">
+      <div class="head-dashboard">
+        <h1>
+          Este es un proyecto personal enfocado a resolver ejercicios JS
+        </h1>
+      </div>
+      <div class="elementsDashboard">
+        <div class="div-generateExcuses">
+        
+          <div class="div-excuse">
+            <div id="excuses" class=" p-excuses">Ya no quiero programar porque...</div>
+           
+          </div>
+          <div class="div-index">
+            <div id="showIndex" class=" p-excuses">(☞ﾟヮﾟ)☞ Start  ← </div>
+           
+          </div>
+          <div class="div-btnGenerate">
+            <button class="btn-Prev" onclick=" preEx(), exerciseMachine() "><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="m4 10l9 9l1.4-1.5L7 10l7.4-7.5L13 1z"/></svg></button>
+
+
+            <button class="btn-randomExcuse" id="active" onclick="exerciseMachine()  ">Start</button>
+            <button class="btn-next" onclick="nextEx() , exerciseMachine()  "><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="currentColor" d="M7 1L5.6 2.5L13 10l-7.4 7.5L7 19l9-9z"/></svg></button>
+
+
+          </div>
+       
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script/excuses.js"></script>
+
+</html>
