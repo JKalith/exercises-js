@@ -47,12 +47,12 @@
     color: white;
     margin: 1px;
     border: rgba(255, 255, 255, 0.169) solid 1px;
-
+    &:hover {
+        background-color: rgba(0, 78, 142, 0.78);
+    }
 }
 
-.btn-pagesNav:hover {
-    background-color: rgba(0, 78, 142, 0.78);
-}
+
 
 
 .inp-tarea {
