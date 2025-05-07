@@ -95,3 +95,20 @@ justify-content: center;
 width: 100vw;
 display: flex;
 }
+
+
+
+@media (max-width: 480px) {
+
+  .div-home{
+    justify-content: center;
+    width: 100vw;
+display: relative
+;
+flex-direction: column;
+
+    }
+    
+
+
+  }
