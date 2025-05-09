@@ -24,7 +24,16 @@ html {
 
 
 
+input{
+ font-family: 'Silkscreen', monospace;
 
+border-radius: 5px;
+
+width: auto;
+height: 30px;
+
+
+}
 
 
 
