@@ -1,7 +1,7 @@
 const images = [
     "https://th.bing.com/th/id/OIP.npSihnx9WGUPAfWJlVPPzwAAAA?cb=iwp1&rs=1&pid=ImgDetMain",
     "https://orig00.deviantart.net/6e11/f/2011/210/d/f/ryu_sprite_by_captainquestion-d4212ba.png",
-    "https://picsum.photos/id/1015/600/400",
+  
  "https://images.hitpaw.com/topics/photo-tips/pixel-art.jpg",
  "https://mymodernmet.com/wp/wp-content/uploads/2022/03/pixel-art-4.jpg",
  "https://cdn.pixabay.com/photo/2022/06/25/19/03/pixel-art-7284060_1280.png",

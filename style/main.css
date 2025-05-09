@@ -63,13 +63,14 @@ button {
 nav a {
   margin-right: 15px;
   text-decoration: none;
-  color: #333;
+  color: orange;
   font-family: 'Silkscreen', monospace;
 }
 
 nav a:hover {
   font-family: 'Silkscreen', monospace;
   text-decoration: underline;
+ 
 }
 p{
   font-family: 'Silkscreen', monospace;
@@ -83,7 +84,14 @@ color: white;
 font-family: 'Silkscreen', monospace;
 }
 
+button{
 
+  background-color: rgb(72, 0, 255);
+color: white;
+
+
+
+}
 a{
 color: white;
 font-family: 'Silkscreen', monospace;

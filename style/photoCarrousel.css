@@ -1,0 +1,46 @@
+.photo{
+
+   height: fit-content;
+
+width: fit-content;
+height: 100%;
+width: 100%;
+
+
+}
+
+.div-Carrousel{
+width: 100%;
+display: flex;
+height: 800px;
+flex-direction: column;
+
+align-items: center;
+
+}
+.titlePage{
+text-align: center;
+width: 100%;
+align-items: center;
+justify-content: center;
+color: orange;
+font-size: 2.2rem;
+}
+
+.div-framePhoto{
+    padding: 10px;
+    background-color: rgb(39, 0, 147);
+    width: 80%;
+    height: 600px;
+
+
+
+
+}
+.div-ContainerBtn{
+display: flex;
+margin-top: 20px;
+justify-content: space-between;
+width: 80%;
+
+}

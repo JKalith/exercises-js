@@ -6,6 +6,7 @@
   <title>Galería de Imágenes</title>
   <link rel="stylesheet" href="style/main.css" />
   <link rel="stylesheet" href="style/home.css" />
+  <link rel="stylesheet" href="style/photoCarrousel.css" />
   <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
 </head>
 
@@ -17,10 +18,12 @@
       </div>
       <nav>
         <div class="div-containerBtnI">
-          <p>Para efectos de entrega aún falta agregar links</p>
+
+          <a href="photoCarousel.html"><button class="btn-pagesNav">Galeria</button></a>
           <a href="arrayEj.html"><button class="btn-pagesNav">Numéricos</button></a>
           <a href="index.html"><button class="btn-pagesNav">Página principal</button></a>
           <a href="excuses.html"><button class="btn-pagesNav">Generador de excusas</button></a>
+          <a href="mysite.html"><button class="btn-pagesNav">Mi sitio</button></a>
         </div>
       </nav>
     </div>
@@ -33,18 +36,36 @@
 
 
 
-      <h1>Galería de Imágenes</h1>
-      <img id="galeria-img" src="https://orig00.deviantart.net/6e11/f/2011/210/d/f/ryu_sprite_by_captainquestion-d4212ba.png" alt="Imagen de galería" />
-      <div>
-        <button id="btn-prev">Anterior</button>
-        <button id="btn-next">Siguiente</button>
+      <h1 class="titlePage" >Galería Pixel Art</h1>
+
+
+      <div class="div-Carrousel">
+
+
+      <div class="div-framePhoto">
+
+
+
+    
+      <img id="galeria-img" class="photo" src="https://orig00.deviantart.net/6e11/f/2011/210/d/f/ryu_sprite_by_captainquestion-d4212ba.png" alt="Imagen de galería" />
+    </div>
+     
+   <div class="div-ContainerBtn">
+
+  
+    <button id="btn-prev">Anterior</button>
+    <button id="btn-next">Siguiente</button>
+  </div>
+      </div>
+
+
       </div>
     </div>
   </div>
 
   <footer></footer>
 
-  <!-- Enlaza correctamente el JS -->
+
   <script src="script/photoCarousel/photoCarousel.js" defer></script>
 </body>
 </html>
